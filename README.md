@@ -9,7 +9,7 @@ Hi, I'm Julie, a master's student in biomedical engineering at Polytechnique
 Montréal. I have a background in neurosciences and physics engineering, and 
 I have strong interests in neuroprosthetics. The following presents my Brainhack project.
 
-***
+
 ***
 
 # A Machine Learning Algorithm to Decode Movements from Intracortical Recordings of the Primary Motor Cortex in Two Macaques
@@ -18,14 +18,14 @@ I have strong interests in neuroprosthetics. The following presents my Brainhack
 **Keywords:** Machine learning | Linear discriminant analysis | Intracortical recording | Utah array | Motor decoding
 
 ## Background and motivation
-***
+
 Motor impairments can occur in several situations, even with a typical cerebral activity. For example, in a patient with a spinal cord injury the motor command is still intact, but it cannot reach the limbs. It is also the case of some neurodegenerative diseases, such as amyotrophic lateral sclerosis (ALS), where a deterioration of the motoneurons is observed. This applies also to amputations, where the motor command is normal, but the limb is not there to achieve the movement. To overcome this problem, some researchers are trying to extract this motor command that is complete, decode it, and have it executed by various methods, such as functional electrical stimulation (FES) of the appropriate muscles or nerves, or by using a motorized prothesis or a robotic arm (Hocheberg et al., 2012; Rubin et al., 2022; Herring et al., 2023). A promising way of extracting the motor command is to record the neural activity directly in the motor cortex. This can be done with a [Utah electrode array](https://blackrockneurotech.com/products/utah-array/), which has 10x10 electrodes. Finally, a substantial aspect of these methods is to properly translate the motor command recorded. This is why the aim of this project is to use machine learning to decode motor commands from recordings of the primary motor cortex of two macaques. 
 
 ![](figures/background.png)
 
 
 ## Project general description
-***
+
 ### Data 
 
 The experiment and the dataset are thoroughly documented in the [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5892370/) of Brochier et al. (2018). 
@@ -55,7 +55,7 @@ The rest/movement analyzes obtained a mean accuracy over the 10 electrodes teste
 
 
 ## Project availability and open-source effort
-***
+
 ### Data availability
 
 The data are available on [g-Node](https://www.g-node.org/), at this [link](https://doi.gin.g-node.org/10.12751/g-node.f83565/). G-Node is a [INCF](https://incf.org/) approved neuroinformatics Node that facilitates data access, data storage, and data analysis of neurophysiological data. It also provides free tools for manipulation of this type of data. 
@@ -74,8 +74,9 @@ The present Github repository aims to gather all documentation, codes, and refer
 
 ![](figures/open_source_tools.png)
 
+
 ## HOW TO REPRODUCE THIS PROJECT?
-***
+
 
 **Easy!** Follow these simple instructions:
 
@@ -87,8 +88,9 @@ The present Github repository aims to gather all documentation, codes, and refer
 3. **Run the notebook *classifier.ipynb*** cell by cell to reproduce every step!
 
 
-## References
 ***
+## References
+
 Brochier, T., Zehl, L., Hao, Y., Duret, M., Sprenger, J., Denker, M., Grün, S., & Riehle, A. (2018). Massively parallel recordings in macaque motor cortex during an instructed delayed reach-to-grasp task. Scientific data, 5, 180055. https://doi.org/10.1038/sdata.2018.55
 
 Garcia, S., Guarino, D., Jaillet, F., Jennings, T., Pröpper, R., Rautenberg, P. L., Rodgers, C. C., Sobolev, A., Wachtler, T., Yger, P., & Davison, A. P. (2014). Neo: an object model for handling electrophysiology data in multiple formats. Frontiers in neuroinformatics, 8, 10. https://doi.org/10.3389/fninf.2014.00010
@@ -101,6 +103,4 @@ Rubin, D. B., Ajiboye, A. B., Barefoot, L., Bowker, M., Cash, S. S., Chen, D., D
 
 
 
-```python
 
-```
