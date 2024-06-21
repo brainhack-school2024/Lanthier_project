@@ -1,0 +1,8 @@
+numpy>=1.19.5
+scipy>=1.7.0
+quantities>=0.12.4
+matplotlib>=3.4.3
+reachgraspio>=0.2.0
+odml>=1.4.2
+neo>=0.9.1
+scikit-learn>=0.24.2
